@@ -45,7 +45,7 @@ void main()
         scanf("%d",&ch);
         switch(ch)
         {
-            case 1:printf("enter the no and pos where to insert:");
+            case 1:printf("enter the   pos and no where to insert:");
                     scanf("%d%d",&p,&n);
                     insert(&first,p,n);
                     break;
